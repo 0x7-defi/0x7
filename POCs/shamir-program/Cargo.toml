@@ -1,0 +1,14 @@
+[package]
+name = "shamir-program"
+version = "0.1.0"
+authors = ["0x7 Developers <0x7.defi@protonmail.ch>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blake3 = "0.3.8"
+ed25519-dalek = "1.0.1"
+nanorand = { version = "0.5.2", features = ["chacha"] }
+rand_chacha = "0.3.0"
+sharks = "0.5.0"
