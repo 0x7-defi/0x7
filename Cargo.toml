@@ -1,0 +1,5 @@
+[workspace]
+members = [
+	"0x7-UI",
+	"POCs/shamir-program",
+]
