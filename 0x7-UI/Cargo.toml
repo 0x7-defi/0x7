@@ -1,0 +1,29 @@
+[package]
+name = "zeroxseven"
+version = "0.1.0"
+authors = ["0x7 Developers <0x7.defi@protonmail.ch>"]
+license = "LicenseRef-Business-Source-Licence-1.1-Proprietary"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2.71"
+wee_alloc = "0.4.5"
+console_log = "0.2.0"
+log = "0.4.14"
+console_error_panic_hook = "0.1.6"
+mogwai = "0.4.0"
+
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+  "HashChangeEvent",
+]
+
+[profile.release]
+# Tell `rustc` to optimize for small code size.
+opt-level = "s"

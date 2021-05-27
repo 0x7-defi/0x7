@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>0x7 | Decentralized Chama Savings</title>
+
+    <link rel="stylesheet" href="styles/frow.min.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <section id="app"></section>
+    <script type="module">
+        import init, { main } from './pkg/wasm.js';
+        window.addEventListener('load', async () => {
+            await init();
+            await main("app");
+        });
+    </script>
+</body>
+
+</html>

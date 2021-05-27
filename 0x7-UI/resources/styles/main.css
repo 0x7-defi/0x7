@@ -1,0 +1,92 @@
+html {
+    font-family: "sans-serif";
+}
+.catch-phrase {
+    color: #2b8f8c;
+    font-family: "Proxima Nova Rg", "sans-serif";
+    font-weight: 100;
+    font-size: 150%;
+}
+
+.bg-primary-color {
+    background: #19191a !important;
+}
+
+.bg-secondary-color {
+    background: #1f2630 !important;
+}
+.bg-tertiary-color {
+    background: #5f3fa3;
+}
+.text-white {
+    font-family: "Proxima Nova Rg", "sans-serif";
+    color: #ffffff;
+}
+.image-half svg {
+    width: 50%;
+}
+.image-half img {
+    width: 50%;
+}
+
+.hero-heading {
+    font-family: "Proxima Nova Rg", "sans-serif";
+    font-weight: 400;
+    color: #2b8f8c;
+    font-size: 200%;
+}
+
+.border {
+    border: 1px solid red;
+}
+.ds-font {
+    font-family: "DS-Digital_Mono", "sans-serif";
+    font-size: 100%;
+    font-weight: bolder;
+}
+#navbar {
+}
+#navbar .link-button-primary {
+    padding: .5em .5em;
+    text-decoration: none !important;
+    background: transparent;
+    color: #0088ff;
+    font-weight: bold;
+}
+
+
+.link-button-primary:hover {
+    color: #ffffff !important;
+}
+.link-button-primary:focus {
+    color: #0088ff !important;
+    background: #ffffff !important;
+    border-radius: 100px;
+}
+@media screen and (min-width: 1280px) {
+    
+.link-button-primary:focus {
+    color: #ffffff !important;
+    background: transparent !important;
+    border-radius: 100px;
+}
+}
+.link-button-secondary {
+    padding: .5em .5em;
+    text-decoration: none !important;
+    background: #3d1593;
+    color: #ffffff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1);
+    font-weight: bold;
+    margin: .2em;
+    font-family: "Proxima Nova Rg", "sans-serif";
+}
+.link-button-secondary:hover {
+    background: #0088ff !important;
+    color: #ffffff;
+}
+
+
+.downloads svg {
+    width: 120px !important;
+}
